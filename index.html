@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1E2024">
-  <title>HTML Renderer by Brahman WebTech</title>
+  <title>RenderPad by Brahman WebTech</title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">🔧 HTML Renderer</a>
+    <a class="navbar-brand" href="#">🔧 Render Pad</a>
 
     <!-- Editable filename in center -->
     <span id="fileName" class="mx-auto text-light" ondblclick="renameFile()" style="cursor:pointer;">
@@ -38,10 +38,10 @@
     <div class="collapse navbar-collapse" id="navbarMenu">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="ShowContainer1()">Render HTML Page</a>
+          <a class="nav-link btn btn-warning" href="#" onclick="ShowContainer1()">Render HTML Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="ShowContainer4()">Save as HTML</a>
+          <a class="nav-link btn btn-success" href="#" onclick="ShowContainer4()">Save as HTML</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="collapse" href="#settingsPanel" role="button" aria-expanded="false" aria-controls="settingsPanel">
@@ -55,11 +55,6 @@
 
 <!-- Settings Panel -->
 <div class="collapse bg-dark text-light p-3" id="settingsPanel">
-  <div class="d-flex justify-content-between mb-3">
-    <button onclick="ShowContainer1()" id="showbtn1" class="btn btn-warning w-50 me-2">RENDER HTML PAGE</button>
-    <button onclick="ShowContainer4()" id="showbtn4" class="btn btn-success w-50">SAVE AS HTML</button>
-  </div>
-
   <div class="row">
     <div class="col-md-3 mb-3">
       <label class="form-label">Theme</label>
@@ -101,7 +96,7 @@
 
   <div class="text-center mt-4">
     <h2>🎉 Enjoying HTML Renderer? 🎉</h2>
-    <p>This ad-free, cost-free service is built for developers. If you'd like to support my work, donations help keep it free of ads.</p>
+    <p>This ad-free, cost-free service is built for developers by Brahman WebTech (<a href="https://bmwtech.in/?ref=gitHub">https://bmwtech.in</a>). If you'd like to support my work, donations help keep it free of ads.</p>
     <a href="https://bmwtech.in/donateme.php" target="_blank" class="btn mb-3" style="background-color:#ff4081;color:white;">💖 Support here</a>
   </div>
 </div>
