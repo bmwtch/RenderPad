@@ -19,5 +19,5 @@ RenderPad is a lightweight, browser-based HTML renderer and editor with live pre
 Clone the repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/bmwtch/RenderPad.git
-cd RenderPad
+git clone https://github.com/bmwtch/renderpad.git
+cd renderpad
